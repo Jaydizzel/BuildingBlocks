@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "buildingblocks:blocks/purple_basic_brick"
+    "all": "buildingblocks:block/purple_basic_brick"
   }
 }

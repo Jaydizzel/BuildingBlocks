@@ -1,6 +1,7 @@
 package com.jaydizzle.buildingblocks.block;
 
 import com.jaydizzle.buildingblocks.BuildingBlocks;
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -18,22 +19,22 @@ import java.util.function.Supplier;
 public class JDSlabs {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BuildingBlocks.MOD_ID);
 
-    public static final RegistryObject<Block> SPRUCE_LOG_SLAB = registerBlock("spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> OAK_LOG_SLAB = registerBlock("oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> DARK_OAK_LOG_SLAB = registerBlock("dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> ACACIA_LOG_SLAB = registerBlock("acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> JUNGLE_LOG_SLAB = registerBlock("jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> BIRCH_LOG_SLAB = registerBlock("birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> WARPED_LOG_SLAB = registerBlock("warped_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_HYPHAE).sound(SoundType.STEM).strength(2f, 2f)));
-    public static final RegistryObject<Block> CRIMSON_LOG_SLAB = registerBlock("crimson_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_HYPHAE).sound(SoundType.STEM).strength(2f, 2f)));
-    public static final RegistryObject<Block> SPRUCE_SKINNED_LOG_SLAB = registerBlock("spruce_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_SPRUCE_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> OAK_SKINNED_LOG_SLAB = registerBlock("oak_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> DARK_SKINNED_OAK_LOG_SLAB = registerBlock("dark_oak_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_DARK_OAK_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> ACACIA_SKINNED_LOG_SLAB = registerBlock("acacia_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_ACACIA_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> JUNGLE_SKINNED_LOG_SLAB = registerBlock("jungle_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_JUNGLE_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> BIRCH_SKINNED_LOG_SLAB = registerBlock("birch_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_BIRCH_LOG).sound(SoundType.WOOD).strength(2f, 2f)));
-    public static final RegistryObject<Block> WARPED_SKINNED_LOG_SLAB = registerBlock("warped_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_WARPED_HYPHAE).sound(SoundType.STEM).strength(2f, 2f)));
-    public static final RegistryObject<Block> CRIMSON_SKINNED_LOG_SLAB = registerBlock("crimson_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_CRIMSON_HYPHAE).sound(SoundType.STEM).strength(2f, 2f)));
+    public static final RegistryObject<Block> SPRUCE_LOG_SLAB = registerBlock("spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> OAK_LOG_SLAB = registerBlock("oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> DARK_OAK_LOG_SLAB = registerBlock("dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> ACACIA_LOG_SLAB = registerBlock("acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> JUNGLE_LOG_SLAB = registerBlock("jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> BIRCH_LOG_SLAB = registerBlock("birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> WARPED_LOG_SLAB = registerBlock("warped_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_SLAB).sound(SoundType.STEM).strength(2f, 2f)));
+    public static final RegistryObject<Block> CRIMSON_LOG_SLAB = registerBlock("crimson_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_SLAB).sound(SoundType.STEM).strength(2f, 2f)));
+    public static final RegistryObject<Block> SPRUCE_SKINNED_LOG_SLAB = registerBlock("spruce_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> OAK_SKINNED_LOG_SLAB = registerBlock("oak_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> DARK_SKINNED_OAK_LOG_SLAB = registerBlock("dark_oak_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> ACACIA_SKINNED_LOG_SLAB = registerBlock("acacia_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> JUNGLE_SKINNED_LOG_SLAB = registerBlock("jungle_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> BIRCH_SKINNED_LOG_SLAB = registerBlock("birch_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
+    public static final RegistryObject<Block> WARPED_SKINNED_LOG_SLAB = registerBlock("warped_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_SLAB).sound(SoundType.STEM).strength(2f, 2f)));
+    public static final RegistryObject<Block> CRIMSON_SKINNED_LOG_SLAB = registerBlock("crimson_skinned_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_SLAB).sound(SoundType.STEM).strength(2f, 2f)));
     public static final RegistryObject<Block> CALCITE_SLAB = registerBlock("calcite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE).sound(SoundType.CALCITE).strength(0.75f, 0.75f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> CLAY_SLAB = registerBlock("clay_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CLAY).sound(SoundType.GRAVEL).strength(0.6f, 0.6f)));
     public static final RegistryObject<Block> GRAVEL_SLAB = registerBlock("gravel_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRAVEL).sound(SoundType.GRAVEL).strength(0.6f, 0.6f)));

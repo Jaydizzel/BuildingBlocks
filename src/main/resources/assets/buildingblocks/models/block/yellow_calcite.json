@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "buildingblocks:blocks/yellow_calcite"
+    "all": "buildingblocks:block/yellow_calcite"
   }
 }
