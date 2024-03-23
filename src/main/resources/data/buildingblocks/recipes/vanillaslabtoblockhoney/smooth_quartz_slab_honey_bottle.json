@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:smooth_quartz_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:smooth_quartz",
+    "count": 1
+  }
+}

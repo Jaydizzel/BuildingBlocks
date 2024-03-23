@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:birch_skinned_log_slab",
+    "count": 6
+  }
+}

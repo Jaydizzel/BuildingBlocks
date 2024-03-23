@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:crimson_skinned_log_slab",
+    "count": 6
+  }
+}

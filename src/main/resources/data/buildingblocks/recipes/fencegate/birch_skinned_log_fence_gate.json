@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "o":
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:birch_skinned_log_fence_gate",
+    "count": 1
+  }
+}

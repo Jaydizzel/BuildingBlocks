@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:spruce_log_slab",
+    "count": 6
+  }
+}

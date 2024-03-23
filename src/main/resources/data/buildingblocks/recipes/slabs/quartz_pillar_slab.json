@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:quartz_pillar"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:quartz_pillar_slab",
+    "count": 6
+  }
+}

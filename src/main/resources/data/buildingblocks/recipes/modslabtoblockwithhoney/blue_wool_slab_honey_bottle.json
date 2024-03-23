@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "buildingblocks:blue_wool_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:blue_wool",
+    "count": 1
+  }
+}

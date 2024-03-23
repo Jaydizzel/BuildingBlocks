@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "o":
+    {
+      "item": "minecraft:stick"
+    },
+    "x":
+    {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:spruce_log_fence",
+    "count": 3
+  }
+}

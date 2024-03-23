@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:black_terracotta"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:black_terracotta_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "o":
+    {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:warped_log_fence_gate",
+    "count": 1
+  }
+}

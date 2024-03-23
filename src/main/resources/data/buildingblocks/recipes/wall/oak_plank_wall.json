@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xsx",
+    "xsx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:oak_planks"
+    },
+    "s":
+    {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:oak_plank_wall",
+    "count": 8
+  }
+}

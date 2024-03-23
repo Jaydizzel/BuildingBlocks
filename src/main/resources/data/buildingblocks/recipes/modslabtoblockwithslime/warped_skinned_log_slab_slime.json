@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "buildingblocks:warped_skinned_log_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:stripped_warped_stem",
+    "count": 1
+  }
+}

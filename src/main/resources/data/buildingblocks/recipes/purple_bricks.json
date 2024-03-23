@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "buildingblocks:basic_bricks"
+    },
+    "d":
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:purple_bricks",
+    "count": 8
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:warped_log_slab",
+    "count": 6
+  }
+}

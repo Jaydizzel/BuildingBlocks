@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "buildingblocks:basic_bricks"
+    },
+    "d":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:yellow_bricks",
+    "count": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "buildingblocks:obsidian_slab",
+    "buildingblocks:obsidian_stairs",
+    "buildingblocks:obsidian_wall",
+    "buildingblocks:crying_obsidian_slab",
+    "buildingblocks:crying_obsidian_stairs",
+    "buildingblocks:crying_obsidian_wall"
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xsx",
+    "xsx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:crimson_planks"
+    },
+    "s":
+    {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:crimson_plank_wall",
+    "count": 8
+  }
+}

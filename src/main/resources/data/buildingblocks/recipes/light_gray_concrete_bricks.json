@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:light_gray_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:light_gray_concrete_bricks",
+    "count": 4
+  }
+}

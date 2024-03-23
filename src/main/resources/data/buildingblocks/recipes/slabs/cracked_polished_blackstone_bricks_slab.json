@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:cracked_polished_blackstone_bricks_slab",
+    "count": 6
+  }
+}

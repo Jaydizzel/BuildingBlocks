@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "minecraft:calcite"
+    },
+    "d":
+    {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:lime_calcite",
+    "count": 8
+  }
+}

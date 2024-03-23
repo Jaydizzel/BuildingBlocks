@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "buildingblocks:basic_bricks"
+    },
+    "d":
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:blue_bricks",
+    "count": 8
+  }
+}

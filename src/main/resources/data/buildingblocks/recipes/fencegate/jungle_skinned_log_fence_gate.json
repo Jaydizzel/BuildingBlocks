@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "o":
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:jungle_skinned_log_fence_gate",
+    "count": 1
+  }
+}

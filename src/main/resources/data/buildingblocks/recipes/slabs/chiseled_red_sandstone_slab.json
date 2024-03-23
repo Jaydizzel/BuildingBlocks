@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:chiseled_red_sandstone"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:chiseled_red_sandstone_slab",
+    "count": 6
+  }
+}

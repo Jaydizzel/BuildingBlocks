@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "buildingblocks:birch_skinned_log_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:stripped_birch_log",
+    "count": 1
+  }
+}

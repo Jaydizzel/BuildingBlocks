@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "item": "buildingblocks:warped_log_stairs",
+    "count": 4
+  }
+}

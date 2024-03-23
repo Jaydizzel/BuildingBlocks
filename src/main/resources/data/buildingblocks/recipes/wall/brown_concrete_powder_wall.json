@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:brown_concrete_powder"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:brown_concrete_powder_wall",
+    "count": 6
+  }
+}

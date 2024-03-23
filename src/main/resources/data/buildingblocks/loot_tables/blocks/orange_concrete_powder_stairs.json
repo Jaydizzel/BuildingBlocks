@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buildingblocks:orange_concrete_powder_stairs"
+        }
+      ]
+    }
+  ]
+}

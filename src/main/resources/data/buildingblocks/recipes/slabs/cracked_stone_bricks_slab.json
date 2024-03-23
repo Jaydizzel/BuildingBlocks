@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:cracked_stone_bricks"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:cracked_stone_bricks_slab",
+    "count": 6
+  }
+}

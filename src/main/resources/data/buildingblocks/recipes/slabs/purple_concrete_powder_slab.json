@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:purple_concrete_powder"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:purple_concrete_powder_slab",
+    "count": 6
+  }
+}

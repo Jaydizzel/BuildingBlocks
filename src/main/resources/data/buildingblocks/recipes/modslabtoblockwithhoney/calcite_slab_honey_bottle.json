@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "buildingblocks:calcite_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:calcite",
+    "count": 1
+  }
+}

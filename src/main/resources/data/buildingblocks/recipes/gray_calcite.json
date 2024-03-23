@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cdc",
+    "ccc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "minecraft:calcite"
+    },
+    "d":
+    {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:gray_calcite",
+    "count": 8
+  }
+}

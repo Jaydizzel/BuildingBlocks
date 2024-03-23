@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:prismarine_brick_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:prismarine_bricks",
+    "count": 1
+  }
+}

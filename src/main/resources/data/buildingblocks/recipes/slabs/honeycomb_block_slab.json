@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:honeycomb_block_slab",
+    "count": 6
+  }
+}

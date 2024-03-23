@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stripped_mangrove_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:stripped_mangrove_log_wall",
+    "count": 6
+  }
+}

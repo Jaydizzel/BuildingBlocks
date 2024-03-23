@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:purple_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:purple_concrete_bricks",
+    "count": 4
+  }
+}

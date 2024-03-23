@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:muddy_mangrove_roots"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:muddy_mangrove_roots_wall",
+    "count": 6
+  }
+}

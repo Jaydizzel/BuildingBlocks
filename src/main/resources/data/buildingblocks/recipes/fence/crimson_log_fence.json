@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "o":
+    {
+      "item": "minecraft:stick"
+    },
+    "x":
+    {
+      "item": "minecraft:crimson_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:crimson_log_fence",
+    "count": 3
+  }
+}

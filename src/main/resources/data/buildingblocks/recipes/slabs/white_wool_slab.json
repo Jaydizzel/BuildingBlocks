@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:white_wool_slab",
+    "count": 6
+  }
+}

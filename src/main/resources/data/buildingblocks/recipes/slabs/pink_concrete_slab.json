@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:pink_concrete_slab",
+    "count": 6
+  }
+}

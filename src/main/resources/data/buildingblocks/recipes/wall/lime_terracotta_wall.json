@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:lime_terracotta"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:lime_terracotta_wall",
+    "count": 6
+  }
+}

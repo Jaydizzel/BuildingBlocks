@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:magenta_concrete_slab",
+    "count": 6
+  }
+}

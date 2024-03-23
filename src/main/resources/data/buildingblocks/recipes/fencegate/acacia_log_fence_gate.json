@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xox",
+    "xox"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "o":
+    {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:acacia_log_fence_gate",
+    "count": 1
+  }
+}

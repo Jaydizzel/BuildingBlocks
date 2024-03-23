@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:magenta_wool_wall",
+    "count": 6
+  }
+}
