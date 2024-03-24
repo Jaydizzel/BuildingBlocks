@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "buildingblocks:moss_block_slab",
-    "buildingblocks:moss_block_stairs",
-    "buildingblocks:moss_block_wall"
-  ]
-}

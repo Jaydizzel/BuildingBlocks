@@ -434,7 +434,6 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDFences.BIRCH_SKINNED_LOG_FENCE.get());
                         pOutput.accept(JDFences.WARPED_SKINNED_LOG_FENCE.get());
                         pOutput.accept(JDFences.CRIMSON_SKINNED_LOG_FENCE.get());
-
                         //FENCE GATES (16)
                         pOutput.accept(JDFenceGates.SPRUCE_LOG_FENCE_GATE.get());
                         pOutput.accept(JDFenceGates.OAK_LOG_FENCE_GATE.get());
