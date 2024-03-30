@@ -423,6 +423,13 @@
   "block.buildingblocks.blue_bricks": "Blue Bricks",
   "block.buildingblocks.basic_bricks": "Basic Bricks",
   "block.buildingblocks.purple_bricks": "Purple Bricks",
+  "block.buildingblocks.blue_cobblestone": "Blue Cobblestone",
+  "block.buildingblocks.spiral_stone": "Spiral Cut Stone",
+  "block.buildingblocks.black_cobblestone": "Black Cobblestone",
+  "block.buildingblocks.brown_cobblestone": "Brown Cobblestone",
+  "block.buildingblocks.green_cobblestone": "Green Cobblestone",
+  "block.buildingblocks.turquoise_cobblestone": "Turquoise Cobblestone",
+  "block.buildingblocks.red_cobblestone": "Red Cobblestone",
 
   "creativetab.main_tab": "\u00A7B\u00A7LBuilding Blocks"
 }

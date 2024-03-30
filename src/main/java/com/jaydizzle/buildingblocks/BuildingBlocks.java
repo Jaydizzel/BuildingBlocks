@@ -1,10 +1,8 @@
 package com.jaydizzle.buildingblocks;
 
-import com.jaydizzle.buildingblocks.block.*;
 import com.jaydizzle.buildingblocks.block.custom.JDBlocks;
 import com.jaydizzle.buildingblocks.item.JDCreativeModeTab;
 import com.jaydizzle.buildingblocks.item.JDItems;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -30,11 +28,6 @@ public class BuildingBlocks {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         JDItems.register(eventBus);
-        JDSlabs.register(eventBus);
-        JDStairs.register(eventBus);
-        JDWalls.register(eventBus);
-        JDFences.register(eventBus);
-        JDFenceGates.register(eventBus);
         JDBlocks.register(eventBus);
         JDCreativeModeTab.register(eventBus);
 

@@ -21,6 +21,7 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(), JDLootTableProvider.create(packOutput));
+        generator.addProvider(event.includeServer(), new JDWorldGenProvider(packOutput, lookupProvider));
 
         generator.addProvider(event.includeClient(), new JDBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new JDItemModelProvider(packOutput, existingFileHelper));
