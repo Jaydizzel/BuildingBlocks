@@ -44,7 +44,7 @@ public class JDPlacedFeatures {
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
 
         register(context, END_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.END_STONES_KEY),
-                JDOrePlacement.commonOrePlacement(3,   //# of veins per chunk
+                JDOrePlacement.commonOrePlacement(1,   //# of veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
 
         register(context, OVERWORLD_STONES_PLACED_KEY1, configuredFeatures.getOrThrow(JDConfiguredFeatures.OVERWORLD_STONES_KEY1),

@@ -54,32 +54,8 @@ public class BuildingBlocks {
         }
     }
 }
-//428
-
-//glowstone its own class
-//  slab
-//  stair
-//  wall
-
-//shroomlight its own class
-//  slab
-//  stair
-//  wall
-
-//sea lantern its own class
-//  slab
-//  stair
-//  wall
-
-//wart blocks warped/nether
-//  slab
-//  stair
-//  wall
-
-//kelp
-//  slab
-//  stair
-//  wall
 
 //cherry wood
 //WALLS ETC FOR MY BLOCKS
+
+//end island w purple cobblestone

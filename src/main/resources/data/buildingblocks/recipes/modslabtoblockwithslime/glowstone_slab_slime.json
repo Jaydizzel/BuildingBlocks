@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "o",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "buildingblocks:glowstone_slab"
+    },
+    "o":
+    {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:glowstone",
+    "count": 1
+  }
+}

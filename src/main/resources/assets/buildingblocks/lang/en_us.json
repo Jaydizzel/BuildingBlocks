@@ -1,4 +1,8 @@
 {
+  "block.buildingblocks.purple_cobblestone": "Purple Cobblestone",
+  "block.buildingblocks.glowstone_wall": "Glowstone Wall",
+  "block.buildingblocks.glowstone_slab": "Glowstone Slab",
+  "block.buildingblocks.glowstone_stairs": "Glowstone Stairs",
   "block.buildingblocks.spruce_log_slab": "Spruce Log Slab",
   "block.buildingblocks.oak_log_slab": "Oak Log Slab",
   "block.buildingblocks.dark_oak_log_slab": "Dark Oak Log Slab",

@@ -54,7 +54,8 @@ public class JDConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> soulStones = List.of(
                 OreConfiguration.target(soulReplaceable, JDBlocks.BROWN_COBBLESTONE.get().defaultBlockState()));
 
-        List<OreConfiguration.TargetBlockState> endStones = List.of();
+        List<OreConfiguration.TargetBlockState> endStones = List.of(
+                OreConfiguration.target(endStoneReplaceable, JDBlocks.PURPLE_COBBLESTONE.get().defaultBlockState()));
 
         register(context, OVERWORLD_STONES_KEY, Feature.ORE, new OreConfiguration(overworldStones, 48));  //vein size
         register(context, NETHER_STONES_KEY, Feature.ORE, new OreConfiguration(netherStones, 64));

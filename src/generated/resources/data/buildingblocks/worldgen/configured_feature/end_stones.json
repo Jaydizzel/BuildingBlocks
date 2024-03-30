@@ -3,6 +3,16 @@
   "config": {
     "discard_chance_on_air_exposure": 0.0,
     "size": 64,
-    "targets": []
+    "targets": [
+      {
+        "state": {
+          "Name": "buildingblocks:purple_cobblestone"
+        },
+        "target": {
+          "block": "minecraft:end_stone",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
   }
 }

@@ -63,6 +63,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         blockWithItem(JDBlocks.BLACK_COBBLESTONE);
         blockWithItem(JDBlocks.GREEN_COBBLESTONE);
         blockWithItem(JDBlocks.RED_COBBLESTONE);
+        blockWithItem(JDBlocks.PURPLE_COBBLESTONE);
 
         //STAIRS
         stairsBlock(((StairBlock) JDBlocks.SPRUCE_LOG_STAIRS.get()), new ResourceLocation("block/spruce_log"));
@@ -177,6 +178,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) JDBlocks.WHITE_CONCRETE_STAIRS.get()), blockTexture(Blocks.WHITE_CONCRETE));
         stairsBlock(((StairBlock) JDBlocks.YELLOW_CONCRETE_STAIRS.get()), blockTexture(Blocks.YELLOW_CONCRETE));
         stairsBlock(((StairBlock) JDBlocks.SMOOTH_STONE_STAIRS.get()), blockTexture(Blocks.SMOOTH_STONE));
+        stairsBlock(((StairBlock) JDBlocks.GLOWSTONE_STAIRS.get()), blockTexture(Blocks.GLOWSTONE));
 
         //SLABS
         slabBlock(((SlabBlock) JDBlocks.SPRUCE_LOG_SLAB.get()), new ResourceLocation("block/spruce_log"), new ResourceLocation("block/spruce_log"));
@@ -290,6 +292,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) JDBlocks.RED_CONCRETE_SLAB.get()), blockTexture(Blocks.RED_CONCRETE), blockTexture(Blocks.RED_CONCRETE));
         slabBlock(((SlabBlock) JDBlocks.WHITE_CONCRETE_SLAB.get()), blockTexture(Blocks.WHITE_CONCRETE), blockTexture(Blocks.WHITE_CONCRETE));
         slabBlock(((SlabBlock) JDBlocks.YELLOW_CONCRETE_SLAB.get()), blockTexture(Blocks.YELLOW_CONCRETE), blockTexture(Blocks.YELLOW_CONCRETE));
+        slabBlock(((SlabBlock) JDBlocks.GLOWSTONE_SLAB.get()), blockTexture(Blocks.GLOWSTONE), blockTexture(Blocks.GLOWSTONE));
 
         //FENCES
         fenceBlock(((FenceBlock) JDBlocks.SPRUCE_LOG_FENCE.get()), new ResourceLocation("block/spruce_log"));
@@ -457,6 +460,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) JDBlocks.VERDANT_FROGLIGHT_WALL.get()), new ResourceLocation("block/verdant_froglight_side"));
         wallBlock(((WallBlock) JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get()), new ResourceLocation("block/pearlescent_froglight_side"));
         wallBlock(((WallBlock) JDBlocks.SMOOTH_STONE_WALL.get()), blockTexture(Blocks.SMOOTH_STONE));
+        wallBlock(((WallBlock) JDBlocks.GLOWSTONE_WALL.get()), blockTexture(Blocks.GLOWSTONE));
 
     }
 

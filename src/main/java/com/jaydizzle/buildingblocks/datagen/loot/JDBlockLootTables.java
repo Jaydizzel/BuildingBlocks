@@ -60,6 +60,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.RED_COBBLESTONE.get());
         this.dropSelf(JDBlocks.BLACK_COBBLESTONE.get());
         this.dropSelf(JDBlocks.SPIRAL_STONE.get());
+        this.dropSelf(JDBlocks.PURPLE_COBBLESTONE.get());
 
         //SLABS
         this.add(JDBlocks.SPRUCE_LOG_SLAB.get(), block -> createSlabItemTable(JDBlocks.SPRUCE_LOG_SLAB.get()));
@@ -173,6 +174,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.add(JDBlocks.RED_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.RED_CONCRETE_SLAB.get()));
         this.add(JDBlocks.WHITE_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.WHITE_CONCRETE_SLAB.get()));
         this.add(JDBlocks.YELLOW_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.YELLOW_CONCRETE_SLAB.get()));
+        this.add(JDBlocks.GLOWSTONE_SLAB.get(), block -> createSlabItemTable(JDBlocks.GLOWSTONE_SLAB.get()));
 
         //STAIRS
         this.dropSelf(JDBlocks.SPRUCE_LOG_STAIRS.get());
@@ -287,6 +289,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.WHITE_CONCRETE_STAIRS.get());
         this.dropSelf(JDBlocks.YELLOW_CONCRETE_STAIRS.get());
         this.dropSelf(JDBlocks.SMOOTH_STONE_STAIRS.get());
+        this.dropSelf(JDBlocks.GLOWSTONE_STAIRS.get());
 
         //WALLS
         this.dropSelf(JDBlocks.SPRUCE_LOG_WALL.get());
@@ -418,6 +421,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.VERDANT_FROGLIGHT_WALL.get());
         this.dropSelf(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get());
         this.dropSelf(JDBlocks.SMOOTH_STONE_WALL.get());
+        this.dropSelf(JDBlocks.GLOWSTONE_WALL.get());
 
         //FENCES
         this.dropSelf(JDBlocks.SPRUCE_LOG_FENCE.get());

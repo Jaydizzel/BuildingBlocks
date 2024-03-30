@@ -229,7 +229,8 @@ public class JDBlockTagGenerator extends BlockTagsProvider {
                 .add(JDBlocks.BLUE_COBBLESTONE.get())
                 .add(JDBlocks.SPIRAL_STONE.get())
                 .add(JDBlocks.SMOOTH_STONE_WALL.get())
-                .add(JDBlocks.SMOOTH_STONE_STAIRS.get());
+                .add(JDBlocks.SMOOTH_STONE_STAIRS.get())
+                .add(JDBlocks.PURPLE_COBBLESTONE.get());
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(JDBlocks.ACACIA_LOG_FENCE.get())
@@ -456,7 +457,8 @@ public class JDBlockTagGenerator extends BlockTagsProvider {
                 .add(JDBlocks.BLUE_COBBLESTONE.get())
                 .add(JDBlocks.SPIRAL_STONE.get())
                 .add(JDBlocks.SMOOTH_STONE_WALL.get())
-                .add(JDBlocks.SMOOTH_STONE_STAIRS.get());
+                .add(JDBlocks.SMOOTH_STONE_STAIRS.get())
+                .add(JDBlocks.PURPLE_COBBLESTONE.get());
 
         this.tag(BlockTags.FENCES)
                 .add(JDBlocks.OAK_LOG_FENCE.get())
@@ -623,7 +625,8 @@ public class JDBlockTagGenerator extends BlockTagsProvider {
                 .add(JDBlocks.OCHRE_FROGLIGHT_WALL.get())
                 .add(JDBlocks.VERDANT_FROGLIGHT_WALL.get())
                 .add(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get())
-                .add(JDBlocks.SMOOTH_STONE_WALL.get());
+                .add(JDBlocks.SMOOTH_STONE_WALL.get())
+                .add(JDBlocks.GLOWSTONE_WALL.get());
 
     }
 }

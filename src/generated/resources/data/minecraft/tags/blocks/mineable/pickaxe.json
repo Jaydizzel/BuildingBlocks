@@ -208,6 +208,7 @@
     "buildingblocks:blue_cobblestone",
     "buildingblocks:spiral_stone",
     "buildingblocks:smooth_stone_wall",
-    "buildingblocks:smooth_stone_stairs"
+    "buildingblocks:smooth_stone_stairs",
+    "buildingblocks:purple_cobblestone"
   ]
 }
