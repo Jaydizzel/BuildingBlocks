@@ -129,6 +129,11 @@
     "buildingblocks:verdant_froglight_wall",
     "buildingblocks:pearlescent_froglight_wall",
     "buildingblocks:smooth_stone_wall",
-    "buildingblocks:glowstone_wall"
+    "buildingblocks:glowstone_wall",
+    "buildingblocks:shroomlight_wall",
+    "buildingblocks:sea_lantern_wall",
+    "buildingblocks:kelp_wall",
+    "buildingblocks:warped_wart_wall",
+    "buildingblocks:crimson_wart_wall"
   ]
 }

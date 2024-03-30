@@ -175,6 +175,11 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.add(JDBlocks.WHITE_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.WHITE_CONCRETE_SLAB.get()));
         this.add(JDBlocks.YELLOW_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.YELLOW_CONCRETE_SLAB.get()));
         this.add(JDBlocks.GLOWSTONE_SLAB.get(), block -> createSlabItemTable(JDBlocks.GLOWSTONE_SLAB.get()));
+        this.add(JDBlocks.SHROOMLIGHT_SLAB.get(), block -> createSlabItemTable(JDBlocks.SHROOMLIGHT_SLAB.get()));
+        this.add(JDBlocks.SEA_LANTERN_SLAB.get(), block -> createSlabItemTable(JDBlocks.SEA_LANTERN_SLAB.get()));
+        this.add(JDBlocks.KELP_SLAB.get(), block -> createSlabItemTable(JDBlocks.KELP_SLAB.get()));
+        this.add(JDBlocks.WARPED_WART_SLAB.get(), block -> createSlabItemTable(JDBlocks.WARPED_WART_SLAB.get()));
+        this.add(JDBlocks.CRIMSON_WART_SLAB.get(), block -> createSlabItemTable(JDBlocks.CRIMSON_WART_SLAB.get()));
 
         //STAIRS
         this.dropSelf(JDBlocks.SPRUCE_LOG_STAIRS.get());
@@ -290,6 +295,11 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.YELLOW_CONCRETE_STAIRS.get());
         this.dropSelf(JDBlocks.SMOOTH_STONE_STAIRS.get());
         this.dropSelf(JDBlocks.GLOWSTONE_STAIRS.get());
+        this.dropSelf(JDBlocks.SHROOMLIGHT_STAIRS.get());
+        this.dropSelf(JDBlocks.SEA_LANTERN_STAIRS.get());
+        this.dropSelf(JDBlocks.KELP_STAIRS.get());
+        this.dropSelf(JDBlocks.WARPED_WART_STAIRS.get());
+        this.dropSelf(JDBlocks.CRIMSON_WART_STAIRS.get());
 
         //WALLS
         this.dropSelf(JDBlocks.SPRUCE_LOG_WALL.get());
@@ -422,6 +432,11 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get());
         this.dropSelf(JDBlocks.SMOOTH_STONE_WALL.get());
         this.dropSelf(JDBlocks.GLOWSTONE_WALL.get());
+        this.dropSelf(JDBlocks.SHROOMLIGHT_WALL.get());
+        this.dropSelf(JDBlocks.SEA_LANTERN_WALL.get());
+        this.dropSelf(JDBlocks.KELP_WALL.get());
+        this.dropSelf(JDBlocks.WARPED_WART_WALL.get());
+        this.dropSelf(JDBlocks.CRIMSON_WART_WALL.get());
 
         //FENCES
         this.dropSelf(JDBlocks.SPRUCE_LOG_FENCE.get());

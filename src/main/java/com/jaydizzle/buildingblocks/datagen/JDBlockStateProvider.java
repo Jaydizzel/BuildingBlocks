@@ -179,6 +179,11 @@ public class JDBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) JDBlocks.YELLOW_CONCRETE_STAIRS.get()), blockTexture(Blocks.YELLOW_CONCRETE));
         stairsBlock(((StairBlock) JDBlocks.SMOOTH_STONE_STAIRS.get()), blockTexture(Blocks.SMOOTH_STONE));
         stairsBlock(((StairBlock) JDBlocks.GLOWSTONE_STAIRS.get()), blockTexture(Blocks.GLOWSTONE));
+        stairsBlock(((StairBlock) JDBlocks.SHROOMLIGHT_STAIRS.get()), blockTexture(Blocks.SHROOMLIGHT));
+        stairsBlock(((StairBlock) JDBlocks.SEA_LANTERN_STAIRS.get()), blockTexture(Blocks.SEA_LANTERN));
+        stairsBlock(((StairBlock) JDBlocks.KELP_STAIRS.get()), new ResourceLocation("block/dried_kelp_top"));
+        stairsBlock(((StairBlock) JDBlocks.WARPED_WART_STAIRS.get()), blockTexture(Blocks.WARPED_WART_BLOCK));
+        stairsBlock(((StairBlock) JDBlocks.CRIMSON_WART_STAIRS.get()), blockTexture(Blocks.NETHER_WART_BLOCK));
 
         //SLABS
         slabBlock(((SlabBlock) JDBlocks.SPRUCE_LOG_SLAB.get()), new ResourceLocation("block/spruce_log"), new ResourceLocation("block/spruce_log"));
@@ -293,6 +298,11 @@ public class JDBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) JDBlocks.WHITE_CONCRETE_SLAB.get()), blockTexture(Blocks.WHITE_CONCRETE), blockTexture(Blocks.WHITE_CONCRETE));
         slabBlock(((SlabBlock) JDBlocks.YELLOW_CONCRETE_SLAB.get()), blockTexture(Blocks.YELLOW_CONCRETE), blockTexture(Blocks.YELLOW_CONCRETE));
         slabBlock(((SlabBlock) JDBlocks.GLOWSTONE_SLAB.get()), blockTexture(Blocks.GLOWSTONE), blockTexture(Blocks.GLOWSTONE));
+        slabBlock(((SlabBlock) JDBlocks.SHROOMLIGHT_SLAB.get()), blockTexture(Blocks.SHROOMLIGHT), blockTexture(Blocks.SHROOMLIGHT));
+        slabBlock(((SlabBlock) JDBlocks.SEA_LANTERN_SLAB.get()), blockTexture(Blocks.SEA_LANTERN), blockTexture(Blocks.SEA_LANTERN));
+        slabBlock(((SlabBlock) JDBlocks.KELP_SLAB.get()), new ResourceLocation("block/dried_kelp_block"), new ResourceLocation("block/dried_kelp_top"));
+        slabBlock(((SlabBlock) JDBlocks.WARPED_WART_SLAB.get()), blockTexture(Blocks.WARPED_WART_BLOCK), blockTexture(Blocks.WARPED_WART_BLOCK));
+        slabBlock(((SlabBlock) JDBlocks.CRIMSON_WART_SLAB.get()), blockTexture(Blocks.NETHER_WART_BLOCK), blockTexture(Blocks.NETHER_WART_BLOCK));
 
         //FENCES
         fenceBlock(((FenceBlock) JDBlocks.SPRUCE_LOG_FENCE.get()), new ResourceLocation("block/spruce_log"));
@@ -461,6 +471,11 @@ public class JDBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get()), new ResourceLocation("block/pearlescent_froglight_side"));
         wallBlock(((WallBlock) JDBlocks.SMOOTH_STONE_WALL.get()), blockTexture(Blocks.SMOOTH_STONE));
         wallBlock(((WallBlock) JDBlocks.GLOWSTONE_WALL.get()), blockTexture(Blocks.GLOWSTONE));
+        wallBlock(((WallBlock) JDBlocks.SHROOMLIGHT_WALL.get()), blockTexture(Blocks.SHROOMLIGHT));
+        wallBlock(((WallBlock) JDBlocks.KELP_WALL.get()), new ResourceLocation("block/dried_kelp_top"));
+        wallBlock(((WallBlock) JDBlocks.SEA_LANTERN_WALL.get()), blockTexture(Blocks.SEA_LANTERN));
+        wallBlock(((WallBlock) JDBlocks.WARPED_WART_WALL.get()), blockTexture(Blocks.WARPED_WART_BLOCK));
+        wallBlock(((WallBlock) JDBlocks.CRIMSON_WART_WALL.get()), blockTexture(Blocks.NETHER_WART_BLOCK));
 
     }
 

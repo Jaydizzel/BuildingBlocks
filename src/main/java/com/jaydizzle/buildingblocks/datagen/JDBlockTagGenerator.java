@@ -328,7 +328,19 @@ public class JDBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(JDBlocks.MOSS_BLOCK_SLAB.get())
                 .add(JDBlocks.MOSS_BLOCK_STAIRS.get())
-                .add(JDBlocks.MOSS_BLOCK_WALL.get());
+                .add(JDBlocks.MOSS_BLOCK_WALL.get())
+                .add(JDBlocks.WARPED_WART_WALL.get())
+                .add(JDBlocks.WARPED_WART_SLAB.get())
+                .add(JDBlocks.WARPED_WART_STAIRS.get())
+                .add(JDBlocks.CRIMSON_WART_WALL.get())
+                .add(JDBlocks.CRIMSON_WART_SLAB.get())
+                .add(JDBlocks.CRIMSON_WART_STAIRS.get())
+                .add(JDBlocks.SHROOMLIGHT_WALL.get())
+                .add(JDBlocks.SHROOMLIGHT_SLAB.get())
+                .add(JDBlocks.SHROOMLIGHT_STAIRS.get())
+                .add(JDBlocks.KELP_WALL.get())
+                .add(JDBlocks.KELP_SLAB.get())
+                .add(JDBlocks.KELP_STAIRS.get());
 
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(JDBlocks.BLACK_CONCRETE_POWDER_SLAB.get())
@@ -626,7 +638,12 @@ public class JDBlockTagGenerator extends BlockTagsProvider {
                 .add(JDBlocks.VERDANT_FROGLIGHT_WALL.get())
                 .add(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get())
                 .add(JDBlocks.SMOOTH_STONE_WALL.get())
-                .add(JDBlocks.GLOWSTONE_WALL.get());
+                .add(JDBlocks.GLOWSTONE_WALL.get())
+                .add(JDBlocks.SHROOMLIGHT_WALL.get())
+                .add(JDBlocks.SEA_LANTERN_WALL.get())
+                .add(JDBlocks.KELP_WALL.get())
+                .add(JDBlocks.WARPED_WART_WALL.get())
+                .add(JDBlocks.CRIMSON_WART_WALL.get());
 
     }
 }

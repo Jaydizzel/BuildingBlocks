@@ -2,6 +2,18 @@
   "values": [
     "buildingblocks:moss_block_slab",
     "buildingblocks:moss_block_stairs",
-    "buildingblocks:moss_block_wall"
+    "buildingblocks:moss_block_wall",
+    "buildingblocks:warped_wart_wall",
+    "buildingblocks:warped_wart_slab",
+    "buildingblocks:warped_wart_stairs",
+    "buildingblocks:crimson_wart_wall",
+    "buildingblocks:crimson_wart_slab",
+    "buildingblocks:crimson_wart_stairs",
+    "buildingblocks:shroomlight_wall",
+    "buildingblocks:shroomlight_slab",
+    "buildingblocks:shroomlight_stairs",
+    "buildingblocks:kelp_wall",
+    "buildingblocks:kelp_slab",
+    "buildingblocks:kelp_stairs"
   ]
 }

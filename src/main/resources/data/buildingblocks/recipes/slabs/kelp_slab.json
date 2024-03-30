@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:dried_kelp_block"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:kelp_slab",
+    "count": 6
+  }
+}

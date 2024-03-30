@@ -170,6 +170,11 @@ public class JDItemModelProvider extends ItemModelProvider {
         wallItemVanilla(JDBlocks.PEARLESCENT_FROGLIGHT_WALL, "block/pearlescent_froglight_side");
         wallItemVanilla(JDBlocks.SMOOTH_STONE_WALL, "block/smooth_stone");
         wallItemVanilla(JDBlocks.GLOWSTONE_WALL, "block/glowstone");
+        wallItemVanilla(JDBlocks.SHROOMLIGHT_WALL, "block/shroomlight");
+        wallItemVanilla(JDBlocks.SEA_LANTERN_WALL, "block/sea_lantern");
+        wallItemVanilla(JDBlocks.KELP_WALL, "block/dried_kelp_top");
+        wallItemVanilla(JDBlocks.WARPED_WART_WALL, "block/warped_wart_block");
+        wallItemVanilla(JDBlocks.CRIMSON_WART_WALL, "block/nether_wart_block");
 
         //STAIRS
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_STAIRS);
@@ -285,6 +290,11 @@ public class JDItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(JDBlocks.YELLOW_CONCRETE_STAIRS);
         evenSimplerBlockItem(JDBlocks.SMOOTH_STONE_STAIRS);
         evenSimplerBlockItem(JDBlocks.GLOWSTONE_STAIRS);
+        evenSimplerBlockItem(JDBlocks.SHROOMLIGHT_STAIRS);
+        evenSimplerBlockItem(JDBlocks.SEA_LANTERN_STAIRS);
+        evenSimplerBlockItem(JDBlocks.KELP_STAIRS);
+        evenSimplerBlockItem(JDBlocks.WARPED_WART_STAIRS);
+        evenSimplerBlockItem(JDBlocks.CRIMSON_WART_STAIRS);
 
         //SLABS
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_SLAB);
@@ -399,6 +409,11 @@ public class JDItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(JDBlocks.WHITE_CONCRETE_SLAB);
         evenSimplerBlockItem(JDBlocks.YELLOW_CONCRETE_SLAB);
         evenSimplerBlockItem(JDBlocks.GLOWSTONE_SLAB);
+        evenSimplerBlockItem(JDBlocks.SHROOMLIGHT_SLAB);
+        evenSimplerBlockItem(JDBlocks.SEA_LANTERN_SLAB);
+        evenSimplerBlockItem(JDBlocks.KELP_SLAB);
+        evenSimplerBlockItem(JDBlocks.WARPED_WART_SLAB);
+        evenSimplerBlockItem(JDBlocks.CRIMSON_WART_SLAB);
 
         //FENCE GATES
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_FENCE_GATE);

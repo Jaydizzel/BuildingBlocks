@@ -63,8 +63,8 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.GREEN_COBBLESTONE.get());
                         pOutput.accept(JDBlocks.RED_COBBLESTONE.get());
                         pOutput.accept(JDBlocks.TURQUOISE_COBBLESTONE.get());
-                        pOutput.accept(JDBlocks.SPIRAL_STONE.get());
                         pOutput.accept(JDBlocks.PURPLE_COBBLESTONE.get());
+                        pOutput.accept(JDBlocks.SPIRAL_STONE.get());
 
                         //SLABS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_SLAB.get());
@@ -179,6 +179,11 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.WHITE_CONCRETE_SLAB.get());
                         pOutput.accept(JDBlocks.YELLOW_CONCRETE_SLAB.get());
                         pOutput.accept(JDBlocks.GLOWSTONE_SLAB.get());
+                        pOutput.accept(JDBlocks.SHROOMLIGHT_SLAB.get());
+                        pOutput.accept(JDBlocks.SEA_LANTERN_SLAB.get());
+                        pOutput.accept(JDBlocks.KELP_SLAB.get());
+                        pOutput.accept(JDBlocks.WARPED_WART_SLAB.get());
+                        pOutput.accept(JDBlocks.CRIMSON_WART_SLAB.get());
 
                         //STAIRS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_STAIRS.get());
@@ -294,6 +299,11 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.YELLOW_CONCRETE_STAIRS.get());
                         pOutput.accept(JDBlocks.SMOOTH_STONE_STAIRS.get());
                         pOutput.accept(JDBlocks.GLOWSTONE_STAIRS.get());
+                        pOutput.accept(JDBlocks.SHROOMLIGHT_STAIRS.get());
+                        pOutput.accept(JDBlocks.SEA_LANTERN_STAIRS.get());
+                        pOutput.accept(JDBlocks.KELP_STAIRS.get());
+                        pOutput.accept(JDBlocks.WARPED_WART_STAIRS.get());
+                        pOutput.accept(JDBlocks.CRIMSON_WART_STAIRS.get());
 
                         //WALLS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_WALL.get());
@@ -426,6 +436,11 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get());
                         pOutput.accept(JDBlocks.SMOOTH_STONE_WALL.get());
                         pOutput.accept(JDBlocks.GLOWSTONE_WALL.get());
+                        pOutput.accept(JDBlocks.SHROOMLIGHT_WALL.get());
+                        pOutput.accept(JDBlocks.SEA_LANTERN_WALL.get());
+                        pOutput.accept(JDBlocks.KELP_WALL.get());
+                        pOutput.accept(JDBlocks.WARPED_WART_WALL.get());
+                        pOutput.accept(JDBlocks.CRIMSON_WART_WALL.get());
 
                         //FENCES
                         pOutput.accept(JDBlocks.SPRUCE_LOG_FENCE.get());

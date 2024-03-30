@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:sea_lantern_slab",
+    "count": 6
+  }
+}

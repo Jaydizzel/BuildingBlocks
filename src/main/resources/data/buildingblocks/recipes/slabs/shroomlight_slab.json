@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:shroomlight_slab",
+    "count": 6
+  }
+}

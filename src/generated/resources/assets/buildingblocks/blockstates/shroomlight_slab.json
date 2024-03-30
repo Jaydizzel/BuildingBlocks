@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildingblocks:block/shroomlight_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/shroomlight"
+    },
+    "type=top": {
+      "model": "buildingblocks:block/shroomlight_slab_top"
+    }
+  }
+}

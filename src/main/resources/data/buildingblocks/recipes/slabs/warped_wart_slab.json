@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:warped_wart_block"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:warped_wart_slab",
+    "count": 6
+  }
+}
