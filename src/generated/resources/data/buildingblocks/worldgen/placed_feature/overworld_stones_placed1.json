@@ -1,5 +1,5 @@
 {
-  "feature": "buildingblocks:overworld_stones",
+  "feature": "buildingblocks:overworld_stones1",
   "placement": [
     {
       "type": "minecraft:count",
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 80
+          "absolute": 60
         },
         "min_inclusive": {
           "absolute": -58

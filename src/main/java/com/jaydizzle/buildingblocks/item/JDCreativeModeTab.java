@@ -19,9 +19,9 @@ public class JDCreativeModeTab {
                     .title(Component.translatable("creativetab.main_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
-                        //426 TOTAL BLOCKS
+                        //428 TOTAL BLOCKS
 
-                        //CUSTOM BLOCKS (44)
+                        //CUSTOM BLOCKS
                         pOutput.accept(JDBlocks.PINK_CALCITE.get());
                         pOutput.accept(JDBlocks.PURPLE_CALCITE.get());
                         pOutput.accept(JDBlocks.ORANGE_CALCITE.get());
@@ -67,7 +67,7 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.TURQUOISE_COBBLESTONE.get());
                         pOutput.accept(JDBlocks.SPIRAL_STONE.get());
 
-                        //SLABS (111)
+                        //SLABS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_SLAB.get());
                         pOutput.accept(JDBlocks.OAK_LOG_SLAB.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_SLAB.get());
@@ -180,7 +180,7 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.WHITE_CONCRETE_SLAB.get());
                         pOutput.accept(JDBlocks.YELLOW_CONCRETE_SLAB.get());
 
-                        //STAIRS (111)
+                        //STAIRS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_STAIRS.get());
                         pOutput.accept(JDBlocks.OAK_LOG_STAIRS.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_STAIRS.get());
@@ -292,8 +292,9 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.RED_CONCRETE_STAIRS.get());
                         pOutput.accept(JDBlocks.WHITE_CONCRETE_STAIRS.get());
                         pOutput.accept(JDBlocks.YELLOW_CONCRETE_STAIRS.get());
+                        pOutput.accept(JDBlocks.SMOOTH_STONE_STAIRS.get());
 
-                        //WALLS (128)
+                        //WALLS
                         pOutput.accept(JDBlocks.SPRUCE_LOG_WALL.get());
                         pOutput.accept(JDBlocks.OAK_LOG_WALL.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_WALL.get());
@@ -422,8 +423,9 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.OCHRE_FROGLIGHT_WALL.get());
                         pOutput.accept(JDBlocks.VERDANT_FROGLIGHT_WALL.get());
                         pOutput.accept(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get());
+                        pOutput.accept(JDBlocks.SMOOTH_STONE_WALL.get());
 
-                        //FENCES (16)
+                        //FENCES
                         pOutput.accept(JDBlocks.SPRUCE_LOG_FENCE.get());
                         pOutput.accept(JDBlocks.OAK_LOG_FENCE.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_FENCE.get());
@@ -441,7 +443,7 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.WARPED_SKINNED_LOG_FENCE.get());
                         pOutput.accept(JDBlocks.CRIMSON_SKINNED_LOG_FENCE.get());
 
-                        //FENCE GATES (16)
+                        //FENCE GATES
                         pOutput.accept(JDBlocks.SPRUCE_LOG_FENCE_GATE.get());
                         pOutput.accept(JDBlocks.OAK_LOG_FENCE_GATE.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_FENCE_GATE.get());
@@ -459,7 +461,6 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.WARPED_SKINNED_LOG_FENCE_GATE.get());
                         pOutput.accept(JDBlocks.CRIMSON_SKINNED_LOG_FENCE_GATE.get());
 
-                        //419 TOTAL BLOCKS
                     })
                     .build());
 

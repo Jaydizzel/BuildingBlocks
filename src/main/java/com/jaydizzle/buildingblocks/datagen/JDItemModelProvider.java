@@ -168,6 +168,7 @@ public class JDItemModelProvider extends ItemModelProvider {
         wallItemVanilla(JDBlocks.OCHRE_FROGLIGHT_WALL, "block/ochre_froglight_side");
         wallItemVanilla(JDBlocks.VERDANT_FROGLIGHT_WALL, "block/verdant_froglight_side");
         wallItemVanilla(JDBlocks.PEARLESCENT_FROGLIGHT_WALL, "block/pearlescent_froglight_side");
+        wallItemVanilla(JDBlocks.SMOOTH_STONE_WALL, "block/smooth_stone");
 
         //STAIRS
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_STAIRS);
@@ -281,6 +282,7 @@ public class JDItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(JDBlocks.RED_CONCRETE_STAIRS);
         evenSimplerBlockItem(JDBlocks.WHITE_CONCRETE_STAIRS);
         evenSimplerBlockItem(JDBlocks.YELLOW_CONCRETE_STAIRS);
+        evenSimplerBlockItem(JDBlocks.SMOOTH_STONE_STAIRS);
 
         //SLABS
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_SLAB);

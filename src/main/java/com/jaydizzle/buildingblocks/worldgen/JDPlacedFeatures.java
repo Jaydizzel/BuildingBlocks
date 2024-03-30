@@ -17,23 +17,43 @@ import java.util.List;
 
 public class JDPlacedFeatures {
     public static final ResourceKey<PlacedFeature> OVERWORLD_STONES_PLACED_KEY = registerKey("overworld_stones_placed");
+    public static final ResourceKey<PlacedFeature> WARPED_STONES_PLACED_KEY = registerKey("warped_stones_placed");
+    public static final ResourceKey<PlacedFeature> SOUL_STONES_PLACED_KEY = registerKey("soul_stones_placed");
     public static final ResourceKey<PlacedFeature> NETHER_STONES_PLACED_KEY = registerKey("nether_stones_placed");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_STONES_PLACED_KEY1 = registerKey("overworld_stones_placed1");
+    public static final ResourceKey<PlacedFeature> OVERWORLD_STONES_PLACED_KEY2 = registerKey("overworld_stones_placed2");
     public static final ResourceKey<PlacedFeature> END_STONES_PLACED_KEY = registerKey("end_stones_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, OVERWORLD_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.OVERWORLD_STONES_KEY),
-                JDOrePlacement.commonOrePlacement(12,   //# of veins per chunk
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200)))); //spawn range
+                JDOrePlacement.commonOrePlacement(2,   //# of veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(80)))); //spawn range
+
+        register(context, WARPED_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.WARPED_STONES_KEY),
+                JDOrePlacement.commonOrePlacement(6,   //# of veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
+
+        register(context, SOUL_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.SOUL_STONES_KEY),
+                JDOrePlacement.commonOrePlacement(6,   //# of veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
 
         register(context, NETHER_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.NETHER_STONES_KEY),
-                JDOrePlacement.commonOrePlacement(12,   //# of veins per chunk
+                JDOrePlacement.commonOrePlacement(6,   //# of veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
 
         register(context, END_STONES_PLACED_KEY, configuredFeatures.getOrThrow(JDConfiguredFeatures.END_STONES_KEY),
-                JDOrePlacement.commonOrePlacement(12,   //# of veins per chunk
+                JDOrePlacement.commonOrePlacement(3,   //# of veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(200))));
+
+        register(context, OVERWORLD_STONES_PLACED_KEY1, configuredFeatures.getOrThrow(JDConfiguredFeatures.OVERWORLD_STONES_KEY1),
+                JDOrePlacement.commonOrePlacement(2,   //# of veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(60))));
+
+        register(context, OVERWORLD_STONES_PLACED_KEY2, configuredFeatures.getOrThrow(JDConfiguredFeatures.OVERWORLD_STONES_KEY2),
+                JDOrePlacement.commonOrePlacement(3,   //# of veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-58), VerticalAnchor.absolute(120))));
     }
 
 

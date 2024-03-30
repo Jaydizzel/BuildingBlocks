@@ -15,7 +15,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        //CUSTOM BLOCKS (37)
+        //CUSTOM BLOCKS
         this.dropSelf(JDBlocks.PINK_CALCITE.get());
         this.dropSelf(JDBlocks.PURPLE_CALCITE.get());
         this.dropSelf(JDBlocks.ORANGE_CALCITE.get());
@@ -61,7 +61,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.BLACK_COBBLESTONE.get());
         this.dropSelf(JDBlocks.SPIRAL_STONE.get());
 
-        //SLABS (111)
+        //SLABS
         this.add(JDBlocks.SPRUCE_LOG_SLAB.get(), block -> createSlabItemTable(JDBlocks.SPRUCE_LOG_SLAB.get()));
         this.add(JDBlocks.OAK_LOG_SLAB.get(), block -> createSlabItemTable(JDBlocks.OAK_LOG_SLAB.get()));
         this.add(JDBlocks.DARK_OAK_LOG_SLAB.get(), block -> createSlabItemTable(JDBlocks.DARK_OAK_LOG_SLAB.get()));
@@ -174,7 +174,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.add(JDBlocks.WHITE_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.WHITE_CONCRETE_SLAB.get()));
         this.add(JDBlocks.YELLOW_CONCRETE_SLAB.get(), block -> createSlabItemTable(JDBlocks.YELLOW_CONCRETE_SLAB.get()));
 
-        //STAIRS (111)
+        //STAIRS
         this.dropSelf(JDBlocks.SPRUCE_LOG_STAIRS.get());
         this.dropSelf(JDBlocks.OAK_LOG_STAIRS.get());
         this.dropSelf(JDBlocks.DARK_OAK_LOG_STAIRS.get());
@@ -286,8 +286,9 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.RED_CONCRETE_STAIRS.get());
         this.dropSelf(JDBlocks.WHITE_CONCRETE_STAIRS.get());
         this.dropSelf(JDBlocks.YELLOW_CONCRETE_STAIRS.get());
+        this.dropSelf(JDBlocks.SMOOTH_STONE_STAIRS.get());
 
-        //WALLS (128)
+        //WALLS
         this.dropSelf(JDBlocks.SPRUCE_LOG_WALL.get());
         this.dropSelf(JDBlocks.OAK_LOG_WALL.get());
         this.dropSelf(JDBlocks.DARK_OAK_LOG_WALL.get());
@@ -416,8 +417,9 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.OCHRE_FROGLIGHT_WALL.get());
         this.dropSelf(JDBlocks.VERDANT_FROGLIGHT_WALL.get());
         this.dropSelf(JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get());
+        this.dropSelf(JDBlocks.SMOOTH_STONE_WALL.get());
 
-        //FENCES (16)
+        //FENCES
         this.dropSelf(JDBlocks.SPRUCE_LOG_FENCE.get());
         this.dropSelf(JDBlocks.OAK_LOG_FENCE.get());
         this.dropSelf(JDBlocks.DARK_OAK_LOG_FENCE.get());
@@ -435,7 +437,7 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(JDBlocks.WARPED_SKINNED_LOG_FENCE.get());
         this.dropSelf(JDBlocks.CRIMSON_SKINNED_LOG_FENCE.get());
 
-        //FENCE GATES (16)
+        //FENCE GATES
         this.dropSelf(JDBlocks.SPRUCE_LOG_FENCE_GATE.get());
         this.dropSelf(JDBlocks.OAK_LOG_FENCE_GATE.get());
         this.dropSelf(JDBlocks.DARK_OAK_LOG_FENCE_GATE.get());

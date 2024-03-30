@@ -217,6 +217,7 @@ public class JDBlocks {
     public static final RegistryObject<Block> OCHRE_FROGLIGHT_WALL = registerBlock("ochre_froglight_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OCHRE_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
     public static final RegistryObject<Block> VERDANT_FROGLIGHT_WALL = registerBlock("verdant_froglight_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.VERDANT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
     public static final RegistryObject<Block> PEARLESCENT_FROGLIGHT_WALL = registerBlock("pearlescent_froglight_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.PEARLESCENT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
+    public static final RegistryObject<Block> SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).sound(SoundType.STONE).strength(1.8f, 1.8f)));
 
     //SLABS
     public static final RegistryObject<Block> SPRUCE_LOG_SLAB = registerBlock("spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB).sound(SoundType.WOOD).strength(2f, 2f)));
@@ -443,6 +444,7 @@ public class JDBlocks {
     public static final RegistryObject<Block> WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs", () -> new StairBlock(Blocks.WHITE_CONCRETE::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE).sound(SoundType.STONE).strength(1.8f, 1.8f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs", () -> new StairBlock(Blocks.YELLOW_CONCRETE::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE).sound(SoundType.STONE).strength(1.8f, 1.8f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs", () -> new StairBlock(Blocks.GRAY_CONCRETE::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE).sound(SoundType.STONE).strength(1.8f, 1.8f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs", () -> new StairBlock(Blocks.SMOOTH_STONE::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).sound(SoundType.STONE).strength(1.8f, 1.8f).requiresCorrectToolForDrops()));
 
     //FENCES
     public static final RegistryObject<Block> SPRUCE_LOG_FENCE = registerBlock("spruce_log_fence", () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).sound(SoundType.WOOD).strength(2f, 2f)));

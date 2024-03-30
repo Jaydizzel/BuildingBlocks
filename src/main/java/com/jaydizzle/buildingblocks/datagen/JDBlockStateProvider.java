@@ -176,6 +176,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) JDBlocks.RED_CONCRETE_STAIRS.get()), blockTexture(Blocks.RED_CONCRETE));
         stairsBlock(((StairBlock) JDBlocks.WHITE_CONCRETE_STAIRS.get()), blockTexture(Blocks.WHITE_CONCRETE));
         stairsBlock(((StairBlock) JDBlocks.YELLOW_CONCRETE_STAIRS.get()), blockTexture(Blocks.YELLOW_CONCRETE));
+        stairsBlock(((StairBlock) JDBlocks.SMOOTH_STONE_STAIRS.get()), blockTexture(Blocks.SMOOTH_STONE));
 
         //SLABS
         slabBlock(((SlabBlock) JDBlocks.SPRUCE_LOG_SLAB.get()), new ResourceLocation("block/spruce_log"), new ResourceLocation("block/spruce_log"));
@@ -455,6 +456,7 @@ public class JDBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) JDBlocks.OCHRE_FROGLIGHT_WALL.get()), new ResourceLocation("block/ochre_froglight_side"));
         wallBlock(((WallBlock) JDBlocks.VERDANT_FROGLIGHT_WALL.get()), new ResourceLocation("block/verdant_froglight_side"));
         wallBlock(((WallBlock) JDBlocks.PEARLESCENT_FROGLIGHT_WALL.get()), new ResourceLocation("block/pearlescent_froglight_side"));
+        wallBlock(((WallBlock) JDBlocks.SMOOTH_STONE_WALL.get()), blockTexture(Blocks.SMOOTH_STONE));
 
     }
 

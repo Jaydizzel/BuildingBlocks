@@ -110,7 +110,6 @@
   "block.buildingblocks.red_concrete_slab": "Red Concrete Slab",
   "block.buildingblocks.white_concrete_slab": "White Concrete Slab",
   "block.buildingblocks.yellow_concrete_slab": "Yellow Concrete Slab",
-
   "block.buildingblocks.spruce_log_wall": "Spruce Log Wall",
   "block.buildingblocks.oak_log_wall": "Oak Log Wall",
   "block.buildingblocks.dark_oak_log_wall": "Dark Oak Log Wall",
@@ -239,7 +238,6 @@
   "block.buildingblocks.ochre_froglight_wall": "Ochre Froglight Wall",
   "block.buildingblocks.verdant_froglight_wall": "Verdant Froglight Wall",
   "block.buildingblocks.pearlescent_froglight_wall": "Pearlescent Froglight Wall",
-
   "block.buildingblocks.acacia_log_stairs": "Acacia Log Stairs",
   "block.buildingblocks.honeycomb_block_stairs": "Honeycomb Stairs",
   "block.buildingblocks.dirt_stairs": "Dirt Stairs",
@@ -351,7 +349,6 @@
   "block.buildingblocks.red_concrete_stairs": "Red Concrete Stairs",
   "block.buildingblocks.white_concrete_stairs": "White Concrete Stairs",
   "block.buildingblocks.yellow_concrete_stairs": "Yellow Concrete Stairs",
-
   "block.buildingblocks.spruce_log_fence": "Spruce Log Fence",
   "block.buildingblocks.oak_log_fence": "Oak Log Fence",
   "block.buildingblocks.dark_oak_log_fence": "Dark Oak Log Fence",
@@ -368,7 +365,6 @@
   "block.buildingblocks.acacia_skinned_log_fence": "Stripped Acacia Log Fence",
   "block.buildingblocks.warped_skinned_log_fence": "Stripped Warped Stem Fence",
   "block.buildingblocks.crimson_skinned_log_fence": "Stripped Crimson Stem Fence",
-
   "block.buildingblocks.spruce_log_fence_gate": "Spruce Log Fence Gate",
   "block.buildingblocks.oak_log_fence_gate": "Oak Log Fence Gate",
   "block.buildingblocks.dark_oak_log_fence_gate": "Dark Oak Log Fence Gate",
@@ -385,7 +381,6 @@
   "block.buildingblocks.acacia_skinned_log_fence_gate": "Stripped Acacia Log Fence Gate",
   "block.buildingblocks.warped_skinned_log_fence_gate": "Stripped Warped Stem Fence Gate",
   "block.buildingblocks.crimson_skinned_log_fence_gate": "Stripped Crimson Stem Fence Gate",
-
   "block.buildingblocks.pink_calcite": "Pink Calcite",
   "block.buildingblocks.purple_calcite": "Purple Calcite",
   "block.buildingblocks.orange_calcite": "Orange Calcite",
@@ -430,6 +425,8 @@
   "block.buildingblocks.green_cobblestone": "Green Cobblestone",
   "block.buildingblocks.turquoise_cobblestone": "Turquoise Cobblestone",
   "block.buildingblocks.red_cobblestone": "Red Cobblestone",
+  "block.buildingblocks.smooth_stone_wall": "Smooth Stone Wall",
+  "block.buildingblocks.smooth_stone_stairs": "Smooth Stone Stairs",
 
   "creativetab.main_tab": "\u00A7B\u00A7LBuilding Blocks"
 }

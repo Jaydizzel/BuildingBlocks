@@ -127,6 +127,7 @@
     "buildingblocks:packed_mud_wall",
     "buildingblocks:ochre_froglight_wall",
     "buildingblocks:verdant_froglight_wall",
-    "buildingblocks:pearlescent_froglight_wall"
+    "buildingblocks:pearlescent_froglight_wall",
+    "buildingblocks:smooth_stone_wall"
   ]
 }

@@ -54,28 +54,7 @@ public class BuildingBlocks {
         }
     }
 }
-//405
-//carver
-//chisel
-//those make the top of log stairs look like planks etc
-//bricks wall, slab, stair
-//stripped bark
-//  slab
-//  stair
-//  fence
-//  wall
-//  fence gate
-
-//bark
-//  slab
-//  stair
-//  fence
-//  wall
-//  fence gate
-
-//smooth stone
-//  stair
-//  wall
+//428
 
 //glowstone its own class
 //  slab
