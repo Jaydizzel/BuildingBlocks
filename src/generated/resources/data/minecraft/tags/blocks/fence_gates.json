@@ -1,0 +1,20 @@
+{
+  "values": [
+    "buildingblocks:oak_log_fence_gate",
+    "buildingblocks:spruce_log_fence_gate",
+    "buildingblocks:dark_oak_log_fence_gate",
+    "buildingblocks:acacia_log_fence_gate",
+    "buildingblocks:jungle_log_fence_gate",
+    "buildingblocks:birch_log_fence_gate",
+    "buildingblocks:warped_log_fence_gate",
+    "buildingblocks:crimson_log_fence_gate",
+    "buildingblocks:spruce_skinned_log_fence_gate",
+    "buildingblocks:oak_skinned_log_fence_gate",
+    "buildingblocks:dark_oak_skinned_log_fence_gate",
+    "buildingblocks:acacia_skinned_log_fence_gate",
+    "buildingblocks:jungle_skinned_log_fence_gate",
+    "buildingblocks:birch_skinned_log_fence_gate",
+    "buildingblocks:crimson_skinned_log_fence_gate",
+    "buildingblocks:warped_skinned_log_fence_gate"
+  ]
+}

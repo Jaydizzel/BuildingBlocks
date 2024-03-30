@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "buildingblocks:block/blue_bricks"
+    }
+  }
+}

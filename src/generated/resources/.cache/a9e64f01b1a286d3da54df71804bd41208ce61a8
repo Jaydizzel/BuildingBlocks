@@ -1,0 +1,10 @@
+// 1.20.1	2024-03-29T22:44:22.4948311	Tags for minecraft:block mod id buildingblocks
+b33be434885324ba6cafe680914487f56be657d5 data/forge/tags/blocks/needs_wood_tool.json
+65d08ba3fb7cceb143c8a5952174b3009b2be4ff data/minecraft/tags/blocks/fences.json
+796527810c6e9865a051d56bc751280e3c371cfc data/minecraft/tags/blocks/fence_gates.json
+7c0670156b6476cba0e65bd97c34639fa1bb7db9 data/minecraft/tags/blocks/mineable/axe.json
+993b25b6bd1003bfb6a690303570852244cbf91a data/minecraft/tags/blocks/mineable/hoe.json
+6da49369d1b5e0f043cbd527fa72d237903e3879 data/minecraft/tags/blocks/mineable/pickaxe.json
+90efd00c2be5f171365d49ed2d368dce03a5dfd5 data/minecraft/tags/blocks/mineable/shovel.json
+88b36587a3890bcf36d910ab90532b98726120b0 data/minecraft/tags/blocks/needs_diamond_tool.json
+c95f8c4c58146dfdba3ae654df110176d89fb375 data/minecraft/tags/blocks/walls.json
