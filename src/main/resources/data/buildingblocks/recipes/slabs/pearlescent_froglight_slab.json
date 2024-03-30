@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pearlescent_froglight"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:pearlescent_froglight_slab",
+    "count": 6
+  }
+}

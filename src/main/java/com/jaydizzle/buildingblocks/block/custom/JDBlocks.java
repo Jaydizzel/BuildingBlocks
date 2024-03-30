@@ -472,6 +472,12 @@ public class JDBlocks {
     public static final RegistryObject<Block> CRIMSON_WART_STAIRS = registerBlock("crimson_wart_stairs", () -> new StairBlock(Blocks.NETHER_WART_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.WART_BLOCK).strength(1.8f, 1.8f)));
     public static final RegistryObject<Block> CRIMSON_WART_WALL = registerBlock("crimson_wart_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.WART_BLOCK).strength(1.8f, 1.8f)));
     public static final RegistryObject<Block> CRIMSON_WART_SLAB = registerBlock("crimson_wart_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.WART_BLOCK).strength(2f, 2f)));
+    public static final RegistryObject<Block> OCHRE_FROGLIGHT_SLAB = registerBlock("ochre_froglight_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OCHRE_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(2f, 2f)));
+    public static final RegistryObject<Block> OCHRE_FROGLIGHT_STAIRS = registerBlock("ochre_froglight_stairs", () -> new StairBlock(Blocks.OCHRE_FROGLIGHT::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.OCHRE_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
+    public static final RegistryObject<Block> VERDANT_FROGLIGHT_SLAB = registerBlock("verdant_froglight_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.VERDANT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(2f, 2f)));
+    public static final RegistryObject<Block> VERDANT_FROGLIGHT_STAIRS = registerBlock("verdant_froglight_stairs", () -> new StairBlock(Blocks.VERDANT_FROGLIGHT::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.VERDANT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
+    public static final RegistryObject<Block> PEARLESCENT_FROGLIGHT_SLAB = registerBlock("pearlescent_froglight_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PEARLESCENT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(2f, 2f)));
+    public static final RegistryObject<Block> PEARLESCENT_FROGLIGHT_STAIRS = registerBlock("pearlescent_froglight_stairs", () -> new StairBlock(Blocks.PEARLESCENT_FROGLIGHT::defaultBlockState, BlockBehaviour.Properties.copy(Blocks.PEARLESCENT_FROGLIGHT).sound(SoundType.FROGLIGHT).strength(1.8f, 1.8f)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

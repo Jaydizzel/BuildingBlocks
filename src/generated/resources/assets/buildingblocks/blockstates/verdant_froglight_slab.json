@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildingblocks:block/verdant_froglight_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/verdant_froglight"
+    },
+    "type=top": {
+      "model": "buildingblocks:block/verdant_froglight_slab_top"
+    }
+  }
+}

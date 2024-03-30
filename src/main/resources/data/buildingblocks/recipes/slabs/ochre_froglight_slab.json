@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:ochre_froglight"
+    }
+  },
+  "result":
+  {
+    "item": "buildingblocks:ochre_froglight_slab",
+    "count": 6
+  }
+}

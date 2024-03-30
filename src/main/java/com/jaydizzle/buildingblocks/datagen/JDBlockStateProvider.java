@@ -184,6 +184,9 @@ public class JDBlockStateProvider extends BlockStateProvider {
         stairsBlock(((StairBlock) JDBlocks.KELP_STAIRS.get()), new ResourceLocation("block/dried_kelp_top"));
         stairsBlock(((StairBlock) JDBlocks.WARPED_WART_STAIRS.get()), blockTexture(Blocks.WARPED_WART_BLOCK));
         stairsBlock(((StairBlock) JDBlocks.CRIMSON_WART_STAIRS.get()), blockTexture(Blocks.NETHER_WART_BLOCK));
+        stairsBlock(((StairBlock) JDBlocks.OCHRE_FROGLIGHT_STAIRS.get()), new ResourceLocation("block/ochre_froglight_top"));
+        stairsBlock(((StairBlock) JDBlocks.VERDANT_FROGLIGHT_STAIRS.get()), new ResourceLocation("block/verdant_froglight_top"));
+        stairsBlock(((StairBlock) JDBlocks.PEARLESCENT_FROGLIGHT_STAIRS.get()), new ResourceLocation("block/pearlescent_froglight_top"));
 
         //SLABS
         slabBlock(((SlabBlock) JDBlocks.SPRUCE_LOG_SLAB.get()), new ResourceLocation("block/spruce_log"), new ResourceLocation("block/spruce_log"));
@@ -303,6 +306,9 @@ public class JDBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) JDBlocks.KELP_SLAB.get()), new ResourceLocation("block/dried_kelp_block"), new ResourceLocation("block/dried_kelp_top"));
         slabBlock(((SlabBlock) JDBlocks.WARPED_WART_SLAB.get()), blockTexture(Blocks.WARPED_WART_BLOCK), blockTexture(Blocks.WARPED_WART_BLOCK));
         slabBlock(((SlabBlock) JDBlocks.CRIMSON_WART_SLAB.get()), blockTexture(Blocks.NETHER_WART_BLOCK), blockTexture(Blocks.NETHER_WART_BLOCK));
+        slabBlock(((SlabBlock) JDBlocks.OCHRE_FROGLIGHT_SLAB.get()), new ResourceLocation("block/ochre_froglight"), new ResourceLocation("block/ochre_froglight_top"));
+        slabBlock(((SlabBlock) JDBlocks.VERDANT_FROGLIGHT_SLAB.get()), new ResourceLocation("block/verdant_froglight"), new ResourceLocation("block/verdant_froglight_top"));
+        slabBlock(((SlabBlock) JDBlocks.PEARLESCENT_FROGLIGHT_SLAB.get()), new ResourceLocation("block/pearlescent_froglight"), new ResourceLocation("block/pearlescent_froglight_top"));
 
         //FENCES
         fenceBlock(((FenceBlock) JDBlocks.SPRUCE_LOG_FENCE.get()), new ResourceLocation("block/spruce_log"));

@@ -184,8 +184,14 @@ public class JDCreativeModeTab {
                         pOutput.accept(JDBlocks.KELP_SLAB.get());
                         pOutput.accept(JDBlocks.WARPED_WART_SLAB.get());
                         pOutput.accept(JDBlocks.CRIMSON_WART_SLAB.get());
+                        pOutput.accept(JDBlocks.OCHRE_FROGLIGHT_SLAB.get());
+                        pOutput.accept(JDBlocks.VERDANT_FROGLIGHT_SLAB.get());
+                        pOutput.accept(JDBlocks.PEARLESCENT_FROGLIGHT_SLAB.get());
 
                         //STAIRS
+                        pOutput.accept(JDBlocks.OCHRE_FROGLIGHT_STAIRS.get());
+                        pOutput.accept(JDBlocks.VERDANT_FROGLIGHT_STAIRS.get());
+                        pOutput.accept(JDBlocks.PEARLESCENT_FROGLIGHT_STAIRS.get());
                         pOutput.accept(JDBlocks.SPRUCE_LOG_STAIRS.get());
                         pOutput.accept(JDBlocks.OAK_LOG_STAIRS.get());
                         pOutput.accept(JDBlocks.DARK_OAK_LOG_STAIRS.get());

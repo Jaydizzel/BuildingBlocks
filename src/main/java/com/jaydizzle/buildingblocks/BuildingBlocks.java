@@ -54,9 +54,7 @@ public class BuildingBlocks {
         }
     }
 }
-//447 blocks
-
-//froglight stairs and slab
+//453 blocks
 
 //cherry wood
 //WALLS ETC FOR MY BLOCKS

@@ -295,8 +295,14 @@ public class JDItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(JDBlocks.KELP_STAIRS);
         evenSimplerBlockItem(JDBlocks.WARPED_WART_STAIRS);
         evenSimplerBlockItem(JDBlocks.CRIMSON_WART_STAIRS);
+        evenSimplerBlockItem(JDBlocks.OCHRE_FROGLIGHT_STAIRS);
+        evenSimplerBlockItem(JDBlocks.VERDANT_FROGLIGHT_STAIRS);
+        evenSimplerBlockItem(JDBlocks.PEARLESCENT_FROGLIGHT_STAIRS);
 
         //SLABS
+        evenSimplerBlockItem(JDBlocks.OCHRE_FROGLIGHT_SLAB);
+        evenSimplerBlockItem(JDBlocks.VERDANT_FROGLIGHT_SLAB);
+        evenSimplerBlockItem(JDBlocks.PEARLESCENT_FROGLIGHT_SLAB);
         evenSimplerBlockItem(JDBlocks.SPRUCE_LOG_SLAB);
         evenSimplerBlockItem(JDBlocks.OAK_LOG_SLAB);
         evenSimplerBlockItem(JDBlocks.DARK_OAK_LOG_SLAB);

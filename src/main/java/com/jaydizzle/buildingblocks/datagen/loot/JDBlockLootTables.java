@@ -180,8 +180,14 @@ public class JDBlockLootTables extends BlockLootSubProvider {
         this.add(JDBlocks.KELP_SLAB.get(), block -> createSlabItemTable(JDBlocks.KELP_SLAB.get()));
         this.add(JDBlocks.WARPED_WART_SLAB.get(), block -> createSlabItemTable(JDBlocks.WARPED_WART_SLAB.get()));
         this.add(JDBlocks.CRIMSON_WART_SLAB.get(), block -> createSlabItemTable(JDBlocks.CRIMSON_WART_SLAB.get()));
+        this.add(JDBlocks.OCHRE_FROGLIGHT_SLAB.get(), block -> createSlabItemTable(JDBlocks.OCHRE_FROGLIGHT_SLAB.get()));
+        this.add(JDBlocks.VERDANT_FROGLIGHT_SLAB.get(), block -> createSlabItemTable(JDBlocks.OCHRE_FROGLIGHT_SLAB.get()));
+        this.add(JDBlocks.PEARLESCENT_FROGLIGHT_SLAB.get(), block -> createSlabItemTable(JDBlocks.OCHRE_FROGLIGHT_SLAB.get()));
 
         //STAIRS
+        this.dropSelf(JDBlocks.OCHRE_FROGLIGHT_STAIRS.get());
+        this.dropSelf(JDBlocks.VERDANT_FROGLIGHT_STAIRS.get());
+        this.dropSelf(JDBlocks.PEARLESCENT_FROGLIGHT_STAIRS.get());
         this.dropSelf(JDBlocks.SPRUCE_LOG_STAIRS.get());
         this.dropSelf(JDBlocks.OAK_LOG_STAIRS.get());
         this.dropSelf(JDBlocks.DARK_OAK_LOG_STAIRS.get());
