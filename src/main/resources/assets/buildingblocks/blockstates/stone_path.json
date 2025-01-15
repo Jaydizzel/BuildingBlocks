@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "":[
+    {
+      "model": "buildingblocks:block/stone_path_1"
+    },
+    {
+      "model": "buildingblocks:block/stone_path_2"
+    },
+    {
+      "model": "buildingblocks:block/stone_path_3"
+    },
+    {
+      "model": "buildingblocks:block/stone_path_4"
+    }
+      ]
+  }
+}
